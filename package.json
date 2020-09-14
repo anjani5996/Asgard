@@ -1,0 +1,19 @@
+{
+  "name": "asgard",
+  "version": "1.0.0",
+  "description": "Earth's Mightiest Heroes: Avengers Assemble First Personal Project which will contain general trivia about Marvel Superheroes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjani5996/Asgard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjani5996/Asgard/issues"
+  },
+  "homepage": "https://github.com/anjani5996/Asgard#readme"
+}
