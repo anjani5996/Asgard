@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/anjani5996/Asgard/issues"
   },
-  "homepage": "https://github.com/anjani5996/Asgard#readme"
+  "homepage": "https://github.com/anjani5996/Asgard#readme",
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "pretty-quick": "^3.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
 }
