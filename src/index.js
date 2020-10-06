@@ -1,4 +1,5 @@
-function impureFunction(items) {
-  let b = 1;
+function impureFunction() {
+  const b = 1;
   console.log(b);
 }
+impureFunction();
