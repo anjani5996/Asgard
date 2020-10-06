@@ -4,7 +4,8 @@
   "description": "Earth's Mightiest Heroes: Avengers Assemble First Personal Project which will contain general trivia about Marvel Superheroes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"./**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/anjani5996/Asgard#readme",
   "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.0",
     "prettier": "^2.1.1",
     "pretty-quick": "^3.0.2"
